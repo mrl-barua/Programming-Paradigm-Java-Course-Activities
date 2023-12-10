@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXDiscreteMath_Game.jnlp">
+  <information>
+    <title>JavaFXDiscreteMath_Game</title>
+    <vendor>Marlo Barua</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXDiscreteMath_Game.jar" size="100967" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXDiscreteMath_Game" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxdiscretemath_game.JavaFXDiscreteMath_Game"  name="JavaFXDiscreteMath_Game" />
+  <update check="always"/>
+</jnlp>

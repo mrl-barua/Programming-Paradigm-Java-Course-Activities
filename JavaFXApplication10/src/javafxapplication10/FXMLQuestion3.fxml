@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="javafxapplication10.FXMLQuestion3Controller">
+   <children>
+      <Label layoutX="189.0" layoutY="66.0" prefHeight="36.0" prefWidth="160.0" text="4th Question">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="224.0" layoutY="139.0" prefHeight="36.0" prefWidth="74.0" text="13 x 5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField alignment="CENTER" layoutX="186.0" layoutY="204.0" prefHeight="36.0" prefWidth="149.0" promptText="Answer" />
+      <Button fx:id="button" layoutX="235.0" layoutY="265.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Button" />
+   </children>
+</AnchorPane>
